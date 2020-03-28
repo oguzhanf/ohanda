@@ -1,2 +1,2 @@
 #!/bin/bash
-slowloris -p $port -s $numsessions -v $server
+slowloris -p $port -s $numsockets -v $server
