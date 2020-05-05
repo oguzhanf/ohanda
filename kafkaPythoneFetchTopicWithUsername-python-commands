@@ -1,0 +1,5 @@
+python
+from kafka import KafkaConsumer
+con = KafkaConsumer('flag',bootstrap_servers='x.x.x.x:9092',security_protocol="SASL_PLAINTEXT", sasl_mechanism='PLAIN', sasl_plain_username='xxxxxx',sasl_plain_password='xxxx')
+for msg in con:
+print(msg)
